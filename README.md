@@ -9,10 +9,11 @@ These lessons are designed to be used with the **bible-study** Grok skill. Sessi
 ```
 lessons/
   <book-slug>/
+    book-meta.md           # book title, author, publisher (once per book)
     <lesson-slug>/
-      lesson-meta.md   # title, Scripture focus, book title + author, theme
-      content.md       # full cleaned lesson text
-      study-plan.md    # sections + numbered questions
+      lesson-meta.md       # lesson-specific info only
+      content.md           # full cleaned lesson text
+      study-plan.md        # sections + numbered questions
 ```
 
 ## Books & Lessons
