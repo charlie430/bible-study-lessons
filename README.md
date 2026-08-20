@@ -8,16 +8,20 @@ These lessons are designed to be used with the **bible-study** Grok skill. Sessi
 
 ```
 lessons/
-  <lesson-slug>/
-    lesson-meta.md   # title, Scripture focus, theme
-    content.md       # full cleaned lesson text
-    study-plan.md    # sections + numbered questions
+  <book-slug>/
+    <lesson-slug>/
+      lesson-meta.md   # title, Scripture focus, book title + author, theme
+      content.md       # full cleaned lesson text
+      study-plan.md    # sections + numbered questions
 ```
 
-## Available Lessons
+## Books & Lessons
 
-- [Lesson 3: Jesus' Baptism (Matthew 3:1-17)](lessons/lesson-3-jesus-baptism/)
+### Follow Me: An In-Depth Study of the Gospel of Matthew  
+*by Elizabeth Bagwell Ficken*
+
+- [Lesson 3: Jesus' Baptism (Matthew 3:1-17)](lessons/follow-me-gospel-of-matthew/lesson-3-jesus-baptism/)
 
 ## Usage
 
-Point the bible-study skill at this repository for shared lessons. Personal session archives go in a separate private repo (e.g. `bible-studies`).
+Point the bible-study skill at this repository for shared lessons. Personal session archives go in a separate private repo (`charlie430/bible-studies`).
