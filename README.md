@@ -1,28 +1,57 @@
 # Bible Study Lessons
 
-Reusable Bible study lessons (cleaned OCR text, study plans, and questions) aligned with the teaching of Stephen Davey / Wisdom International.
+Reusable Bible study lessons (cleaned OCR text, study plans, and metadata) aligned with the teaching of Stephen Davey / Wisdom International.
 
-These lessons are designed to be used with the **bible-study** Grok skill. Sessions (personal transcripts, answers, and summaries) are stored separately so this repo can remain public without exposing private study notes.
+These lessons are designed to be used with the **bible-study** Grok skills and the public web app. Personal sessions (transcripts, answers, progress) are stored separately so this repo can remain public without exposing private study notes.
 
 ## Structure
 
 ```
 lessons/
   <book-slug>/
-    book-meta.md           # book title, author, publisher (once per book)
+    book-meta.yaml           # book title, author, slug (once per book)
     <lesson-slug>/
-      lesson-meta.md       # lesson-specific info only
-      content.md           # full cleaned lesson text
-      study-plan.md        # sections + numbered questions
+      lesson-meta.yaml       # lesson title, number, scripture, theme
+      content.md             # full cleaned lesson text (authoritative script)
+      study-plan.md          # interaction map (prayer, questions, etc.)
 ```
+
+### `book-meta.yaml` example
+
+```yaml
+title: "Follow Me: An In-Depth Study of the Gospel of Matthew"
+author: "Elizabeth Bagwell Ficken"
+slug: follow-me-gospel-of-matthew
+doctrinal_alignment: "Stephen Davey / Wisdom International"
+notes: "Optional notes"
+```
+
+### `lesson-meta.yaml` example
+
+```yaml
+title: "Jesus' Baptism"
+number: 3
+slug: lesson-3-jesus-baptism
+scripture: "Matthew 3:1-17"
+theme: "Short theme description"
+workbook_pages: "17–21"
+created: "2026-08-20"
+```
+
+Do **not** repeat full book title/author in `lesson-meta.yaml` — that lives only in `book-meta.yaml`.
 
 ## Books & Lessons
 
-### Follow Me: An In-Depth Study of the Gospel of Matthew  
+### Follow Me: An In-Depth Study of the Gospel of Matthew
 *by Elizabeth Bagwell Ficken*
 
 - [Lesson 3: Jesus' Baptism (Matthew 3:1-17)](lessons/follow-me-gospel-of-matthew/lesson-3-jesus-baptism/)
+- [Lesson 4: Jesus Versus Satan (Matthew 4:1-11)](lessons/follow-me-gospel-of-matthew/lesson-4-jesus-versus-satan/)
 
 ## Usage
 
-Point the bible-study skill at this repository for shared lessons. Personal session archives go in a separate private repo (`charlie430/bible-studies`).
+- **Ingest:** New lessons are added via the `bible-study-ingest` skill (OCR → YAML meta + content + study plan → this repo).
+- **Study (chat skill):** `bible-study-session` loads lessons from this repo.
+- **Web app:** Catalog metadata is synced from this repo into Supabase; study content is still read from GitHub at runtime.
+
+Personal session archives live in the private repo [`charlie430/bible-studies`](https://github.com/charlie430/bible-studies).
