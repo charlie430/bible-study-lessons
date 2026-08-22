@@ -13,8 +13,33 @@ lessons/
     <lesson-slug>/
       lesson-meta.yaml       # lesson title, number, scripture, theme
       content.md             # full cleaned lesson text (authoritative script)
-      study-plan.md          # interaction map (prayer, questions, etc.)
+      study-plan.yaml        # interaction map (YAML only — no markdown)
 ```
+
+### `study-plan.yaml` format
+
+```yaml
+items:
+  - id: p1
+    type: prayer
+    title: Opening prayer
+    prompt: Pray for understanding.
+  - id: r1
+    type: bible-reading
+    reference: Matthew 3:1-12
+  - id: q1
+    type: question
+    number: 1
+    text: What stood out to you?
+  - id: q2
+    type: reflection
+    number: 2
+    text: How will you apply this?
+```
+
+Supported `type` values: `prayer`, `bible-reading`, `question`, `fill-blank`, `table`, `reflection`, `memory`.
+
+Ids: `p1`… for prayer, `r1`… for bible-reading, `q1`… for question-like items.
 
 ### `book-meta.yaml` example
 
@@ -50,8 +75,8 @@ Do **not** repeat full book title/author in `lesson-meta.yaml` — that lives on
 
 ## Usage
 
-- **Ingest:** New lessons are added via the `bible-study-ingest` skill (OCR → YAML meta + content + study plan → this repo).
+- **Ingest:** New lessons are added via the `bible-study-ingest` skill (OCR → YAML meta + content + YAML study plan → this repo).
 - **Study (chat skill):** `bible-study-session` loads lessons from this repo.
-- **Web app:** Catalog metadata is synced from this repo into Supabase; study content is still read from GitHub at runtime.
+- **Web app:** Catalog and lesson content live in Supabase; study plans are stored as YAML text.
 
 Personal session archives live in the private repo [`charlie430/bible-studies`](https://github.com/charlie430/bible-studies).
