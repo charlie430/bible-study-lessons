@@ -1,0 +1,70 @@
+items:
+  - id: p1
+    type: prayer
+    title: Opening prayer
+    prompt: Pray that you will understand the importance of the following events.
+  - id: r1
+    type: bible-reading
+    reference: Matthew 3:1-12
+  - id: q1
+    type: question
+    number: 1
+    text: Just who is John the Baptist and what is he all about? Describe him and his mission based on the passage you just read.
+  - id: q2
+    type: question
+    number: 2
+    text: How does John 1:6-8 describe John the Baptist?
+  - id: r2
+    type: bible-reading
+    reference: Matthew 3:7-12
+  - id: q3
+    type: question
+    number: 3
+    text: Who is being addressed in this passage?
+  - id: q4
+    type: question
+    number: 4
+    text: How are they described?
+  - id: q5
+    type: question
+    number: 5
+    text: In the passage you just read, how does John rebuke these two groups?
+  - id: q6
+    type: question
+    number: 6
+    text: What is the hope and the promise for those who repent, according to Matthew 3:11-12?
+  - id: q7
+    type: question
+    number: 7
+    text: What is the horror to come for those who do not repent, according to Matthew 3:11-12?
+  - id: q8
+    type: question
+    number: 8
+    text: If you have repented of your sins and trusted in Jesus as the One who forgives your sins, what is the truth declared in Ephesians 1:13-14?
+  - id: r3
+    type: bible-reading
+    reference: Matthew 3:13-17
+  - id: q9
+    type: question
+    number: 9
+    text: Looking at your Bible and the translation provided, describe the surprising aspects of this event (verses 13-14, 15, 16, and 17).
+  - id: q10
+    type: question
+    number: 10
+    text: Why did Jesus say He was to be baptized? (Record what He said.)
+  - id: q11
+    type: reflection
+    number: 11
+    text: How do you respond when you are given instructions that you don’t quite understand? Do you submit to the ways of the Lord even when they don’t make sense to you?
+  - id: q12
+    type: question
+    number: 12
+    text: What does Isaiah 11:1-2 tell you about the Holy Spirit?
+  - id: q13
+    type: question
+    number: 13
+    text: What does John 1:32-34 tell you about the Holy Spirit coming upon Jesus?
+  - id: q14
+    type: question
+    number: 14
+    text: How does Matthew 3:17 relate to Psalm 2:7 and Isaiah 42:1?
