@@ -1,0 +1,67 @@
+items:
+  - id: p1
+    type: prayer
+    title: Opening prayer
+    prompt: Please pray to know and live by the word of God.
+  - id: r1
+    type: bible-reading
+    reference: Matthew 4:1-11
+  - id: q1
+    type: fill-blank
+    number: 1
+    text: What’s the first word of the passage? (I’ve checked all the translations and they are the same… even in the Greek!) First word: ____________
+  - id: q2
+    type: question
+    number: 2
+    text: That word makes this passage connected to what previous event? And what was the crucial revelation given at that event?
+  - id: q3
+    type: fill-blank
+    number: 3
+    text: Fill in the blanks from verse 1: Jesus was led by the ____________. Jesus was led into the ____________. Jesus was led there to be ____________ by the ____________.
+  - id: q4
+    type: question
+    number: 4
+    text: What conclusion can you make regarding the role of the Lord and the role of Satan when it comes to temptation?
+  - id: r2
+    type: bible-reading
+    reference: Matthew 4:2-10
+  - id: q5
+    type: table
+    number: 5
+    text: Fill in the table for the three attempts (Circumstance / Temptation / Response) — First attempt (Matthew 4:2-4), Second attempt (Matthew 4:5-7), Third attempt (Matthew 4:8-10).
+  - id: q6
+    type: question
+    number: 6
+    text: In each circumstance above, who gave a command to Jesus?
+  - id: q7
+    type: question
+    number: 7
+    text: And in each circumstance, whose command did Jesus obey?
+  - id: q8
+    type: reflection
+    number: 8
+    text: Whose commands do you listen to in the circumstances of your life?
+  - id: q9
+    type: question
+    number: 9
+    text: What did Jesus declare in each circumstance before stating the command of the Lord?
+  - id: q10
+    type: question
+    number: 10
+    text: Summarize what you learn about the Word of God based on these verses and the use of the perfect tense of “written.”
+  - id: q11
+    type: reflection
+    number: 11
+    text: Jesus didn’t stand resolutely against the schemes of Satan by His own strength, identity, or authority. He rebuked Satan with the written words of God. How much more so should we rely on the authority of Scripture?
+  - id: q12
+    type: memory
+    number: 12
+    text: Time for a pop-quiz! To the best of your ability, write out one verse that you have memorized.
+  - id: q13
+    type: question
+    number: 13
+    text: After forty long, hard days and nights, and after three rounds with the tempter, how did Jesus recover?
+  - id: q14
+    type: reflection
+    number: 14
+    text: Now that you’ve seen the complete plan regarding temptation (Matthew 4:1-11), what will your strategy be before, during, and after times of temptation?
