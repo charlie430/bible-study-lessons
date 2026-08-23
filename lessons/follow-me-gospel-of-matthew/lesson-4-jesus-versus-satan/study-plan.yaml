@@ -3,9 +3,13 @@ items:
     type: prayer
     title: Opening prayer
     prompt: Please pray to know and live by the word of God.
+    teach: |
+      Today we will look at the first recorded challenge to Jesus’ mission on earth. The enemy of God is always out to wreak havoc in the lives of God’s children, and he made no exception for Jesus. The Son of God was the ultimate target. If Satan could make Jesus disobey His Father, he would win the eternal victory. But Matthew doesn’t even give us a hint of anxiety regarding this event. With a very matter of fact account of the temptation of Jesus, he shows us that the enemy of God is no match for the Son of God.
   - id: r1
     type: bible-reading
     reference: Matthew 4:1-11
+    teach: |
+      Let’s begin by reading the full account of Jesus’ temptation. Watch carefully for the first word of the passage — it connects this event to what came just before.
   - id: q1
     type: fill-blank
     number: 1
@@ -14,25 +18,41 @@ items:
     type: question
     number: 2
     text: That word makes this passage connected to what previous event? And what was the crucial revelation given at that event?
+    teach: |
+      The opening word of Matthew 4 ties this wilderness testing directly to the baptism of Jesus. At that event the Father publicly declared Jesus to be His beloved Son, and the Spirit anointed Him for ministry. Now that same Spirit leads Him into the wilderness.
   - id: q3
     type: fill-blank
     number: 3
     text: Fill in the blanks from verse 1: Jesus was led by the ____________. Jesus was led into the ____________. Jesus was led there to be ____________ by the ____________.
+    teach: |
+      Now we are ready to continue. Notice a few key points in verse 1. Fill in the blanks carefully as we look at who leads, where He is led, and why.
   - id: q4
     type: question
     number: 4
     text: What conclusion can you make regarding the role of the Lord and the role of Satan when it comes to temptation?
+    teach: |
+      It’s easy to fill in those blanks, but let’s consider the impact of those statements. The Spirit led Jesus into the wilderness for the purpose of being tempted by the devil. Temptation is not outside the Father’s sovereign plan — yet the tempter is never the one in control.
   - id: r2
     type: bible-reading
     reference: Matthew 4:2-10
+    teach: |
+      Because Jesus endured temptation and escaped from it, His example shows us how to do the same. Let’s look more closely at the three attempts and how He handled each one.
   - id: q5
     type: table
     number: 5
     text: Fill in the table for the three attempts (Circumstance / Temptation / Response) — First attempt (Matthew 4:2-4), Second attempt (Matthew 4:5-7), Third attempt (Matthew 4:8-10).
+    teach: |
+      Please fill in the columns based on Matthew 4. For each of the three attempts, note the circumstance Jesus was in, the specific temptation Satan offered, and Jesus’ response from Scripture.
   - id: q6
     type: question
     number: 6
     text: In each circumstance above, who gave a command to Jesus?
+    teach: |
+      Was the third time a charm for Satan? No! Jesus did not succumb to his repeated attempts to destroy Him. It was more like — three strikes and you’re out!
+
+      Satan began his temptations with the words, “If you are the Son of God…” (It’s implied in the third temptation.) This is critically important and shows the connection to the declaration made at Jesus’ baptism. The construction of this sentence in the Greek causes the “if” to mean “since” or “because.” Therefore, we should understand that Satan was saying, “Since you are the Son of God…”
+
+      Satan did not doubt that Jesus was the Son of God. He knew that He was. And he wasn’t trying to get Jesus to doubt that He was the Son of God. Satan was trying to get Jesus to take advantage of His own power and to act independently of His Father’s will for Him.
   - id: q7
     type: question
     number: 7
@@ -45,10 +65,14 @@ items:
     type: question
     number: 9
     text: What did Jesus declare in each circumstance before stating the command of the Lord?
+    teach: |
+      It’s hard to listen to and obey the commands of the Lord if you don’t know them. Jesus demonstrated that knowing the words of the Lord from the Scriptures is the most important aspect of standing firm against temptation.
   - id: q10
     type: question
     number: 10
     text: Summarize what you learn about the Word of God based on these verses and the use of the perfect tense of “written.”
+    teach: |
+      The word “written” is in the perfect tense in Matthew 4:4, 7, and 10. A standard Greek grammar notes that the perfect tense describes an action that was brought to completion and whose effects are felt in the present. God’s Word was written — and it still stands with full authority.
   - id: q11
     type: reflection
     number: 11
@@ -57,6 +81,8 @@ items:
     type: memory
     number: 12
     text: Time for a pop-quiz! To the best of your ability, write out one verse that you have memorized.
+    teach: |
+      Words to live by. Words to trust. Words to lead us to worship. We must know the Word of God so that we can follow His commands and none other. This was the way that Jesus became victorious over the enemy and the way that we will as well. Let us learn the truth of the Word of God and apply it appropriately during our times of testing.
   - id: q13
     type: question
     number: 13
@@ -65,3 +91,5 @@ items:
     type: reflection
     number: 14
     text: Now that you’ve seen the complete plan regarding temptation (Matthew 4:1-11), what will your strategy be before, during, and after times of temptation?
+    teach: |
+      Jesus’ temptation was a testing allowed by the Lord. Jesus was now completely prepared to begin His public ministry. He had obeyed His Father; He had been publicly anointed by the Spirit and announced as the Son of God; and He had withstood the temptations of the enemy. The time had come. The Messiah was about to begin His mission.
